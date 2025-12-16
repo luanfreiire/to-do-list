@@ -50,3 +50,36 @@
 .task-trash img {
   height: 1.8rem;
 }
+
+/* media queries */
+@media(width <=600px) {
+  .task-list {
+    padding-top: 1rem;
+  }
+
+  .task-item p {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .task-confirm {
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+
+  .task-confirm img {
+    width: 2rem;
+    height: 1rem;
+  }
+
+  .task-trash img {
+    height: 1.2rem;
+  }
+}
+
+@media(width <=400px) {
+  .task-confirm img {
+    width: 1rem;
+    height: 1rem;
+  }
+}
