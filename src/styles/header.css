@@ -13,6 +13,7 @@
   font: italic 2rem/1 var(--font-main);
   color: var(--color-e1);
   margin-bottom: 1rem;
+  white-space: nowrap;
 }
 
 .header-input {
@@ -21,7 +22,7 @@
 }
 
 .header-input input {
-  width: 30vw;
+  width: 50vw;
   height: 100%;
   padding: 12px 6px;
   background: var(--color-bg);
@@ -50,4 +51,17 @@
 .header-input button img {
   width: 32px;
   height: 32px;
+}
+
+/* media queries */
+@media(width <=700px) {
+  .header-input input::placeholder {
+    font-size: 0.875rem;
+  }
+}
+
+@media(width <=500px) {
+  .container-header h1 {
+    font-size: 1.5rem;
+  }
 }
