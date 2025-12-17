@@ -18,8 +18,19 @@
   --font-main: "JetBrains Mono", monospace;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 img {
